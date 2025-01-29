@@ -4,7 +4,9 @@
 #dataloader（感觉非常有问题）
 old_dataloader → 以前写的dataloader，没有分开训练集和测试集，直接读取的NYUv2的mat文件，没有先转换成RGB/Depth/labels
 NYUdataloder → 自己改的，分开了训练集和测试集，不过同样直接读取的NYUv2的mat文件，没有先转换成RGB/Depth/labels
-在这个网站https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html下载那个2.8GB的mat文件（已经标注好了的那个），然后替换到路径里就可以了
+
+在这个网站 https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
+下载那个2.8GB的mat文件（已经标注好了的那个），然后替换到路径里就可以了
 
 #模型
 ResNet50.main → 以预训练好的ResNet50作为backbone写了个RGB-D双流模型
