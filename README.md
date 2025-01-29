@@ -9,8 +9,9 @@ NYUdataloder → 自己改的，分开了训练集和测试集，不过同样直
 下载那个2.8GB的mat文件（已经标注好了的那个），然后替换到路径里就可以了
 
 #模型
-\n ResNet50.main → 以预训练好的ResNet50作为backbone写了个RGB-D双流模型
-\n F_SPConv_encoder4 → 还是以ResNet50为backbone，不过encoder层的最后尝试加了个变种卷积测试效果
+
+ResNet50.main → 以预训练好的ResNet50作为backbone写了个RGB-D双流模型
+F_SPConv_encoder4 → 还是以ResNet50为backbone，不过encoder层的最后尝试加了个变种卷积测试效果
 
 #变种卷积
 SPConv_4corner → 实验用卷积，可以直接用没问题的
