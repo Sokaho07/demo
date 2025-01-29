@@ -2,8 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from CBAM import CBAM
-from GhostNet import GhostBottleneck
-from new_dataloader import dataloader, labels
+from old_dataloader import dataloader, labels
 import torchvision.models as models
 
 class DualStreamResNet50UNet(nn.Module):
